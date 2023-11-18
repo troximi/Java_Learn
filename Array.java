@@ -1,5 +1,14 @@
+import java.util.Scanner;
+
 public class Array {
+    
     public static void main(String[] args) throws Exception {
+
+        Scanner scanner = new Sacnner(System.in);
+        System.out.println("Enter your name");
+        String name = scanner.Nextint;
+
+        
 
         System.out.println("hi coders this is my array ");
         int[] numbers = {5,10,15,20,25 ,30,35,40,45,50,};
